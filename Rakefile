@@ -7,7 +7,7 @@ begin
     gem.name = "vain_routes"
     gem.summary = %Q{TODO: one-line summary of your gem}
     gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "rstawarz@itsgames.com"
+    gem.email = "ryan at stawarz dot com"
     gem.homepage = "http://github.com/rstawarz/vain_routes"
     gem.authors = ["Ryan Stawarz"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
