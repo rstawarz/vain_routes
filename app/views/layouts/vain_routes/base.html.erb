@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ItnetMe</title>
+  <%= stylesheet_link_tag 'vain_routes' %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+  <div class="main-content">
+	  <div class="header">Header</div>
+	 <div class="content">
+	 	  <%  [:error, :warning, :notice].each do |sym| %>
+		  <% if flash[sym] %>
+			<p class="flash <%=sym.to_s%>"><%= flash[sym] %></p>
+		  <% end %>
+		  <% end %>
+		 <%= yield %>
+	 </div>
+	 <div class="footer">Footer</div>
+ </div>
+</body>
+</html>

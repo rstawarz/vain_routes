@@ -3,6 +3,9 @@
 
 module VainRoutes
 	class Engine < Rails::Engine
-		#engine_name :vain_routes
+		initializer "static assets" do |app|
+		  app.middleware.use ::ActionDispatch::Static, "#{root}/public"
+		  #app.middleware.insert_before(::ActionDispatch::Static, ::ActionDispatch::Static, "#{root}/public")
+		end
 	end
 end

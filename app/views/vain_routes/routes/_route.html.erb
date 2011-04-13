@@ -1,0 +1,5 @@
+<div class="route">
+	<span><%= (route.verb || :any).to_s.upcase%></span>
+	<span><%= route.path %></span>
+	<span><%= route.requirements.inspect %></span>
+</div>
