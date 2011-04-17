@@ -1,6 +1,22 @@
 
 <p>Hi - you have <%= @routes.length %> routes</p>
-
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function() {
+		$('#vainroutes').dataTable();
+	} );
+</script>
 <div class="routes">
-   <%= render :partial => "route", :collection => @routes %>
+	<table id="vainroutes">
+		<thead>
+			<tr>
+				<th>Order</th>
+				<th>Verb</th>
+				<th>Path</th>
+				<th>Requirements</th>
+			</tr>
+		</thead>
+		<tbody>
+   			<%= render :partial => "route", :collection => @routes %>
+		</tbody>
+   </table>
 </div>
