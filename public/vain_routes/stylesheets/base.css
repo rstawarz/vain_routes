@@ -1,6 +1,18 @@
 html, body{
-   width: 960px;
-   margin: 0px auto;
 }
 .main-content{
+}
+
+html, body{
+	background-color: #262B2F;
+	
+}
+.main-content{
+   width: 960px;
+   margin: 0px auto;
+	background-color: white;
+	
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
 }
