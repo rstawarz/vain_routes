@@ -2,11 +2,18 @@
 <p>Hi - you have <%= @routes.length %> routes</p>
 <script type="text/javascript" charset="utf-8">
 	$(document).ready(function() {
-		$('#vainroutes').dataTable();
+		$('#vainroutes').dataTable({
+			"bPaginate": false,
+			"bLengthChange": false,
+			"bFilter": true,
+			"bJQueryUI": true,
+			"bSort": true,
+			"bInfo": false,
+			"bAutoWidth": false });
 	} );
 </script>
 <div class="routes">
-	<table id="vainroutes">
+	<table id="vainroutes" width="100%">
 		<thead>
 			<tr>
 				<th>Order</th>

@@ -2,9 +2,13 @@
 <html>
 <head>
   <title>Vain Routes</title>
-  <%= stylesheet_link_tag 'vain_routes/base.css', '/data_tables/css/demo_table' %>
-	<script type="text/javascript" language="javascript" src="/data_tables/js/jquery.js"></script>
-	<script type="text/javascript" language="javascript" src="/data_tables/js/jquery.dataTables.js"></script>
+<link rel="stylesheet" href="/vain_routes/stylesheets/jui-pepper-grinder/jquery-ui-1.8.11.custom.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+  <%= stylesheet_link_tag '/vain_routes/stylesheets/base.css', '/vain_routes/stylesheets/data_table_jui' %>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+	<script type="text/javascript" language="javascript" src="/vain_routes/data_tables/js/jquery.dataTables.js"></script>
 
   <%= csrf_meta_tag %>
 </head>
