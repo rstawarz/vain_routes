@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
   <title>Vain Routes</title>
@@ -14,7 +14,7 @@
 </head>
 <body>
   <div class="main-content">
-	  <div class="header">Header</div>
+	  <div class="header"></div>
 	 <div class="content">
 	 	  <%  [:error, :warning, :notice].each do |sym| %>
 		  <% if flash[sym] %>
@@ -23,7 +23,7 @@
 		  <% end %>
 		 <%= yield %>
 	 </div>
-	 <div class="footer">Footer</div>
+	 <div class="footer"></div>
  </div>
 </body>
 </html>

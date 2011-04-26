@@ -1,5 +1,4 @@
 
-<p>Hi - you have <%= @routes.length %> routes</p>
 <script type="text/javascript" charset="utf-8">
 	$(document).ready(function() {
 		$('#vainroutes').dataTable({
@@ -14,12 +13,20 @@
 </script>
 <div class="routes">
 	<table id="vainroutes" class="display">
+	    <colgroup>
+		   <col class="order"/>
+		   <col class="verb"/>
+		   <col class="path"/>
+		   <col class="controller"/>
+		   <col class="action"/>
+		</colgroup>
 		<thead>
 			<tr>
-				<th>Order</th>
+				<th >Order</th>
 				<th>Verb</th>
 				<th>Path</th>
-				<th>Requirements</th>
+				<th>Controller</th>
+				<th>Action</th>
 			</tr>
 		</thead>
 		<tbody>

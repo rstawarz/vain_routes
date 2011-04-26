@@ -178,9 +178,9 @@ table.display thead th div.DataTables_sort_wrapper span {
  * DataTables display
  */
 table.display {
-	margin: 0 auto;
-	width: 80%;
-	clear: both;
+	table-layout:fixed;
+	/*width: 100%;*/
+	width: 940px;
 	border-collapse: collapse;
 }
 
@@ -280,10 +280,12 @@ table.display tr.even.gradeU {
 
 tr.odd {
 	background-color: #E2E4FF;
+	background-color: #DFD;
 }
 
 tr.even {
 	background-color: white;
+	background-color: #EFE;
 }
 
 
@@ -378,11 +380,11 @@ table.display tr.odd.row_selected td {
  */
 /* For the standard odd/even */
 tr.odd td.sorting_1 {
-	background-color: #D3D6FF;
+	background-color: #C4FFC4;
 }
 
 tr.odd td.sorting_2 {
-	background-color: #DADCFF;
+	background-color: #FFC4C4;
 }
 
 tr.odd td.sorting_3 {
@@ -390,7 +392,7 @@ tr.odd td.sorting_3 {
 }
 
 tr.even td.sorting_1 {
-	background-color: #EAEBFF;
+	background-color: #D5FFD5;
 }
 
 tr.even td.sorting_2 {

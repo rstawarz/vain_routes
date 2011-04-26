@@ -4,15 +4,46 @@ html, body{
 }
 
 html, body{
-	background-color: #262B2F;
+	/*background-color: #262B2F;*/
+	background-image:url('/vain_routes/images/oak_background_texture.jpg');
+	background-position:  0 0;
 	
 }
 .main-content{
    width: 960px;
    margin: 0px auto;
-	background-color: white;
+   margin-top:25px;
+   margin-bottom: 25px;
+	/*background-color: white;*/
 	
 	border-radius: 20px;
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
+}
+
+div.routes{
+
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+	
+col.order{
+  width: 75px;
+}
+col.verb{
+  width: 75px;
+}
+col.path{
+  width: 350px;
+  overflow: auto;
+
+}
+
+col.controller{
+	text-align: left;
+}
+
+td.wrapword{
+ 
+ word-wrap: break-word;       /* Internet Explorer 5.5+ & Chrome*/
 }
