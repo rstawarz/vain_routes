@@ -3,7 +3,7 @@
 You didn't invest all that time into creating your beautiful restful routes only to have them displayed in a
 console window, did you?
 
-Introducing 'Vain Routes' - a rails engine that enables you to view your routes directly from your browser.  While the command line may helpful, it sure isn't pretty!
+Introducing 'Vain Routes' - a rails engine that enables you to view your routes directly from your browser.  While the command line may helpful, it isn't as pretty as this!
 
 http://github.com/rstawarz/vain_routes/raw/master/doc/screenshot.png
 
@@ -13,8 +13,9 @@ Simply install the gem:
 
 =Configure
 Add vain_routes to your Gemfile:
-     gem 'vain_routes'
-
+     group :development do
+       gem 'vain_routes'
+     end
 =Fire it up!
 From the command line, fire up your server
      rails server
@@ -29,7 +30,7 @@ Please give it a try, and let me know if you have any requests on how I can make
 If you like it (or not), please shoot me a not via email (ryan at stawarz dot com) or twitter (@rstawarz).
 
 == Thanks
-Special thanks to Matt Hamm[http://www.flickr.com/photos/matthamm/2690294056/in/photostream/] for sharing the background image.
+Special thanks to "Matt Hamm"[http://www.flickr.com/photos/matthamm/2690294056/in/photostream/] for sharing the background image on flickr.
 
 == Copyright
 
