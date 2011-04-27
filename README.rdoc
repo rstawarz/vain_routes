@@ -5,15 +5,15 @@ console window, did you?
 
 http://github.com/rstawarz/vain_routes/raw/master/doc/screenshot.png
 
-=Install
+1.Install
 
-gem install vain_routes
+     gem install 'vain_routes'
 
-=Configuration
+2.Configuration
 Add vain_routes to your Gemfile:
      gem 'vain_routes'
 
-=Use
+3.Use
 Fire up your server and open the browser to:
 http://localhost:3000/vain/routes
 
