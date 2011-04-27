@@ -5,17 +5,19 @@ console window, did you?
 
 http://github.com/rstawarz/vain_routes/raw/master/doc/screenshot.png
 
-1.Install
-
+=Install
+Simply install the gem:
      gem install 'vain_routes'
 
-2.Configuration
+=Configure
 Add vain_routes to your Gemfile:
      gem 'vain_routes'
 
-3.Use
-Fire up your server and open the browser to:
-http://localhost:3000/vain/routes
+=Fire it up!
+From the command line, fire up your server
+     rails server
+And open your browser to:
+     http://localhost:3000/vain/routes
 
 
 == Note on Patches/Pull Requests
