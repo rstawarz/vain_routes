@@ -3,7 +3,7 @@
 You didn't invest all that time into creating your beautiful restful routes only to have them displayed in a
 console window, did you?
 
-link:screenshot.png
+link:doc/screenshot.png
 
 == Note on Patches/Pull Requests
  
