@@ -5,6 +5,19 @@ console window, did you?
 
 http://github.com/rstawarz/vain_routes/raw/master/doc/screenshot.png
 
+=Install
+
+gem install vain_routes
+
+=Configuration
+Add vain_routes to your Gemfile:
+     gem 'vain_routes'
+
+=Use
+Fire up your server and open the browser to:
+http://localhost:3000/vain/routes
+
+
 == Note on Patches/Pull Requests
  
 * Fork the project.
@@ -17,4 +30,4 @@ http://github.com/rstawarz/vain_routes/raw/master/doc/screenshot.png
 
 == Copyright
 
-Copyright (c) 2010 Ryan Stawarz. See LICENSE for details.
+Copyright (c) 2010 Ryan Stawarz. It is free software governed by the MIT License - see the terms specified in the LICENSE file for details.
