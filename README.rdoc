@@ -3,6 +3,8 @@
 You didn't invest all that time into creating your beautiful restful routes only to have them displayed in a
 console window, did you?
 
+Introducing 'Vain Routes' - a rails engine that enables you to view your routes directly from your browser.  While the command line may helpful, it sure isn't pretty!
+
 http://github.com/rstawarz/vain_routes/raw/master/doc/screenshot.png
 
 =Install
@@ -20,15 +22,14 @@ And open your browser to:
      http://localhost:3000/vain/routes
 
 
-== Note on Patches/Pull Requests
- 
-* Fork the project.
-* Make your feature addition or bug fix.
-* Add tests for it. This is important so I don't break it in a
-  future version unintentionally.
-* Commit, do not mess with rakefile, version, or history.
-  (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
-* Send me a pull request. Bonus points for topic branches.
+== Feeback & Requests
+
+Please give it a try, and let me know if you have any requests on how I can make those routes look even better!
+
+If you like it (or not), please shoot me a not via email (ryan at stawarz dot com) or twitter (@rstawarz).
+
+== Thanks
+Special thanks to Matt Hamm[http://www.flickr.com/photos/matthamm/2690294056/in/photostream/] for sharing the background image.
 
 == Copyright
 
