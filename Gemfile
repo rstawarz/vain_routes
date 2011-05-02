@@ -1,4 +1,4 @@
 source "http://rubygems.org"
 
-gem "rails", ">=3.0.6"
-gem "jeweler"
+gem "rails", ">=3.0"
+#gem "jeweler"
